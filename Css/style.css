@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.player {
+    text-align: center;
+    transform: translate(-20px,40px);
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    margin: 70px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.restart {
+    text-align: center;
+}
+
+.restart button {
+    cursor: pointer;
+    padding: 20px;
+    font-size: 30px;
+}
