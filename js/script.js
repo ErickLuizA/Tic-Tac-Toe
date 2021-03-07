@@ -11,8 +11,8 @@ let gameOver = false;
 gameInit();
 
 function gameInit() {
-    for(let i = 0; i < cell.length ; i++) {
-        cell[i].addEventListener('click',cellChange);
+    for(let i = 0; i < cell.length; i++) {
+        cell[i].addEventListener('click', cellChange);
     }
 }
 
@@ -20,29 +20,36 @@ function playerChange() {
     if(gameOver) return;
 
     if(playTime == player1) {
-        player.innerHTML = 'X'
+        player.innerHTML = 'X';
     } else {
-        player.innerHTML = 'O'
+        player.innerHTML = 'O';
     }
 }
 
 function cellChange(e) {
+
     if(gameOver) return;
     
     targetCell = e.target;
 
     if(targetCell.innerHTML === "") {
         if (playTime == player1) {
-            targetCell.setAttribute('play',player1);
+            targetCell.setAttribute('play', player1);
+
             targetCell.innerHTML = 'X';
+
             playTime = player2;
         } else {
-            targetCell.setAttribute('play',player2);
+            targetCell.setAttribute('play', player2);
+
             targetCell.innerHTML = 'O';
+
             playTime = player1;
         }
+
         playerChange();
     }
+
     winnerValidator();
 }
 
@@ -72,16 +79,29 @@ async function winnerValidator() {
 
         await sleep(50);
 
-        alert(`O vencedor é ${winner}`)
+        alert(`O vencedor é ${winner}`);
     }
 }
 
 function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve,ms))
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-restart.addEventListener('click',restartGame);
+restart.addEventListener('click', restartGame);
 
 function restartGame() {
-    window.location.reload();
+    document.querySelector('#a1').setAttribute('play', '');
+    document.querySelector('#a2').setAttribute('play', '');
+    document.querySelector('#a3').setAttribute('play', '');
+    document.querySelector('#b1').setAttribute('play', '');
+    document.querySelector('#b2').setAttribute('play', '');
+    document.querySelector('#b3').setAttribute('play', '');
+    document.querySelector('#c1').setAttribute('play', '');
+    document.querySelector('#c2').setAttribute('play', '');
+    document.querySelector('#c3').setAttribute('play', '');
+
+    playTime = player1;
+    player.innerHTML = 'X';
+    gameOver = false;
+    cell.forEach((i) => i.innerHTML = '');
 }
