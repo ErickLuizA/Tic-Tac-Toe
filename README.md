@@ -1,11 +1,11 @@
-<h1 align="center"> Tic-Tac-Toe </h1>
+<h1 align="center"> tic-tac-toe </h1>
 
 <p align="center">
-  <a href="https://github.com/ErickLuizA/Tic-Tac-Toe/graphs/commit-activity" alt="Maintenance">
+  <a href="https://github.com/ErickLuizA/tic-tac-toe/graphs/commit-activity" alt="Maintenance">
     <img src="https://img.shields.io/badge/Maintained%3F-yes-1EAE72.svg" />
   </a>
 
-  <a href="https://Tic-Tac-Toe.netlify.app/" alt="Tic-Tac-Toe website">
+  <a href="https://simplest-tic-tac-toe.netlify.app" alt="tic-tac-toe website">
     <img src="https://img.shields.io/website-up-down-1EAE72-red/https/simplest-tic-tac-toe.netlify.app/" />
   </a>
 
@@ -15,14 +15,13 @@
 
 <br/>
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ErickLuizA/Tic-Tac-Toe?color=blue">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ErickLuizA/tic-tac-toe?color=blue">
 
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ErickLuizA/Tic-Tac-Toe">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ErickLuizA/tic-tac-toe">
 
-<a href="https://github.com/ErickLuizA/Tic-Tac-Toe/stargazers">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/ErickLuizA/Tic-Tac-Toe?style=social">
+<a href="https://github.com/ErickLuizA/tic-tac-toe/stargazers">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/ErickLuizA/tic-tac-toe?style=social">
 </a>
-
 
 <p align="center">
   <a href="#clipboard-description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -32,29 +31,26 @@
   <a href="#framed_picture-screenshots">Screenshots</a>
 </p>
 
-
 ## :clipboard: Description
+
 A simple tic-tac-toe
 
-
 ## :building_construction: Technologies
+
 - HTML
 - CSS
 - JAVASCRIPT
-
-
-
 
 ## :rocket: Getting Started
 
 1. Download the repository
 
 ```shell
- $ git clone https://github.com/ErickLuizA/Tic-Tac-Toe.git
+ $ git clone https://github.com/ErickLuizA/tic-tac-toe.git
 
  or
 
- $ gh repo clone ErickLuizA/Tic-Tac-Toe
+ $ gh repo clone ErickLuizA/tic-tac-toe
 ```
 
 2. Execution
@@ -62,8 +58,6 @@ A simple tic-tac-toe
 ```shell
   Open the index.html file in a browser
 ```
-
-
 
 ## :framed_picture: Screenshots
 
